@@ -5,7 +5,9 @@ require_once __DIR__ . '/vendor/autoload.php';
 $mpdf = new \Mpdf\Mpdf();
 
 // Write some HTML code:
-$mpdf->WriteHTML('Hello World');
+$mpdf->WriteHTML('Exemplos <b>PHP</b>');
+$mpdf->WriteHTML('Autor: <a href="https://sandroalencarfernandes.com">Sandro Alencar Fernandes</a>');
+
 
 // Output a PDF file directly to the browser
 $mpdf->Output();
