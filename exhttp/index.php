@@ -7,7 +7,7 @@
     <title>PW2 - Exemplo HTTP + PHP</title>
 </head>
 <body>
-    <h1>PW2 - Exemplo requisições HTTP + PHP - Request</h1>
+    <h1>PW2 - Exemplo requisições HTTP + PHP - Requests</h1>
     <hr>
     <form method="POST" action="destino.php">
         <label for="inome">Nome: </label>
